@@ -150,7 +150,7 @@ sleep 3
 echo -e "\n ========== test R environment ========== \n"
 
 # load relevant modules
-module add r/4.0.5
+module add r/4.0.4
 
 echo
 echo " * R: $(readlink -f $(which R)) "
