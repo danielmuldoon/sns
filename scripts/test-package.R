@@ -21,7 +21,7 @@ package_name = args[1]
 # check for arguments
 if (length(args) < 1) stop("not enough arguments provided")
 
-BiocManager::install(version = "3.12")
+BiocManager::install(version = "3.12", update=TRUE, ask=FALSE)
 
 # load relevant packages
 message("checking R package: ", package_name)
