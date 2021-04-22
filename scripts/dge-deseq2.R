@@ -54,8 +54,6 @@ load_install_packages("glue")
 load_install_packages("DESeq2")
 load_install_packages("ashr")
 load_install_packages("genefilter")
-# for processing GTF (for gene lengths for FPKMs)
-load_install_packages("rtracklayer")
 # for exporting Excel xlsx files
 load_install_packages("writexl")
 # for color scheme
@@ -69,6 +67,8 @@ load_install_packages("pheatmap")
 # for gene set enrichment (pathways)
 load_install_packages("msigdbr")
 load_install_packages("fgsea")
+# for processing GTF (for gene lengths for FPKMs)
+load_install_packages("rtracklayer")
 
 message(" ========== import inputs ========== ")
 
