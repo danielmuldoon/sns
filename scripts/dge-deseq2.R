@@ -43,6 +43,8 @@ if (!file.exists(groups_table_file)) stop("file does not exist: ", groups_table_
 r_dir = "r-data"
 if (!dir.exists(r_dir)) dir.create(r_dir)
 
+BiocManager::install(version = "3.12")
+
 # for general data manipulation
 load_install_packages("magrittr")
 load_install_packages("tibble")
