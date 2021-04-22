@@ -55,6 +55,7 @@ load_install_packages("DESeq2")
 load_install_packages("ashr")
 load_install_packages("genefilter")
 # for processing GTF (for gene lengths for FPKMs)
+load_install_packages("mixsqp")
 load_install_packages("rtracklayer")
 # for exporting Excel xlsx files
 load_install_packages("writexl")
